@@ -41,6 +41,10 @@
         border: 2px solid #ffffff;
         border-radius: 100%;
         margin: 0 15px;
+        &:hover {
+            box-shadow: 3px 3px 20px black;
+            border: none;
+        }
         img {
             height: 27px;
         }
@@ -49,5 +53,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 }
