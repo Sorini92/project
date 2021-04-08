@@ -41,4 +41,12 @@
             }
         }
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease-in-out infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }

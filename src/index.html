@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -7,12 +7,14 @@
 		<link rel="stylesheet" href="css/bootstrap-reboot.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.css">
 		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 		<link rel="stylesheet" href="css/style.min.css">
 		<title>Pulse</title>
 </head>
 <body>
-	<section class="promo">
+	<section id="up" class="promo">
 		<div class="container">
 			<header class="header">
 				<a href="#" class="header__logo">
@@ -62,23 +64,23 @@
 
 	<section class="advantages">
 		<div class="container">
-			<div class="title">НАШИ ПРЕИМУЩЕСТВА</div>
+			<h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
 			<div class="advantages__wrapper">
-				<div class="advantages__item">
+				<div class="advantages__item animate__backInRight animate__animated wow" data-wow-duration="2s" data-wow-delay="0.5s">
 					<img src="img/advantages/icon1.svg" alt="cup">
 					<span>Делимся опытом</span>
 					<div class="advantages__item_descr">
 						Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
 					</div>
 				</div>
-				<div class="advantages__item">
-					<img src="img/advantages/icon2.svg" alt="heart">
+				<div class="advantages__item animate__backInRight animate__animated wow" data-wow-duration="2s" data-wow-delay="1s">
+					<img src="img/advantages/icon2.svg" alt="heart" class="advantages__icon_animated">
 					<span>Заботимся о здоровье</span>
 					<div class="advantages__item_descr">
 						Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
 					</div>
 				</div>
-				<div class="advantages__item">
+				<div class="advantages__item animate__backInRight animate__animated wow" data-wow-duration="2s" data-wow-delay="1.5s">
 					<img src="img/advantages/icon3.svg" alt="sneakers">
 					<span>Учим бегать</span>
 					<div class="advantages__item_descr">
@@ -106,7 +108,7 @@
 		</div>
 	</section>
 
-	<section class="carousel">
+	<div class="carousel">
 		<div class="container">
 			<div class="carousel__inner">
 				<div>
@@ -120,7 +122,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
 	<section class="catalog">
 		<div class="container">
@@ -378,7 +380,7 @@
 		<div class="container">
 			<h2 class="title">отзывы клиентов</h2>
 			<div class="review__wrapper">
-				<div class="review-item">
+				<div class="review-item animate__backInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="0.5s">
 					<div class="review-item__img">
 						<img src="img/review/photo_1.png" alt="photo">
 					</div>
@@ -390,7 +392,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="review-item">
+				<div class="review-item animate__backInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="0.5s">
 					<div class="review-item__img">
 						<img src="img/review/photo_2.png" alt="photo">
 					</div>
@@ -402,7 +404,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="review-item">
+				<div class="review-item animate__backInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="0.5s">
 					<div class="review-item__img">
 						<img src="img/review/photo_3.png" alt="photo">
 					</div>
@@ -419,10 +421,10 @@
 	</section>
 
 	<footer class="footer">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481201483!2d37.64480195180956!3d55.768394980462155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1617272590217!5m2!1sru!2sua" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481201483!2d37.64480195180956!3d55.768394980462155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1617272590217!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		<div class="footer__info">
 			<address class="footer__addr">Москва, Мясницкий проезд, д.3с1</address>
-			<a class="footer__phone" href="tel:84999228974" tel>8 (499) 922-89-74</a>
+			<a class="footer__phone" href="tel:84999228974">8 (499) 922-89-74</a>
 			<div class="footer__social">
 				<a href="#" class="footer__social-item"><img src="img/footer/facebook.svg" alt="facebook"></a>
 				<a href="#" class="footer__social-item"><img src="img/footer/instagram.svg" alt="instagram"></a>
@@ -463,14 +465,18 @@
 			<form class="feed-form feed-form_mt25" action="#">
 			</form>
 		</div>
-
 	</div>
 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<a href="#up" class="pageup">
+		<img src="img/arrowup.svg" alt="up">
+	</a>
+	
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/jquery.maskedinput.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html> 

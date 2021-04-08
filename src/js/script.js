@@ -6,7 +6,7 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="img/slide/right.svg"></button>',
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 980,
                     settings: {
                         dots: true,
                         arrows: false
@@ -76,4 +76,21 @@ $(document).ready(function(){
        validateForms('#order form');
 
        $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+       //smooth scroll
+       $(window).scroll(function() {
+            if ($(this).scrollTop() > 1000) {
+                $('.pageup').fadeIn();
+            } else {
+                $('.pageup').fadeOut();
+            }
+       });
+
+       $("a[href=#up]").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+        });
+
+        new WOW().init();
   });
