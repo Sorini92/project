@@ -62,6 +62,10 @@
     
     .title {
         font-size: 20px;
+        &_left {
+            font-size: 15px;
+            line-height: 30px;
+        }
     }
 
     .header {
@@ -69,11 +73,7 @@
             width: 170px;
         }
         &__official {
-            font-size: 12px;
-            span {
-                display: block;
-                font-size: 16px;
-            }
+            display: none;
         }
         &__phone {
             font-size: 16px;
@@ -88,13 +88,14 @@
             margin-top: 50px;
         }
         &__header {
-            font-size: 30px;
+            font-size: 25px;
         }
         &__subheader {
-            font-size: 20px;
+            font-size: 15px;
+            margin-top: 10px;
         }
         &__icons {
-            width: 350px;
+            width: 320px;
             margin-top: 25px;
         }
         &__link {
@@ -113,14 +114,27 @@
     }
 
     .consultation {
-        min-height: 580px;
+        min-height: 520px;
+        &__descr {
+            font-size: 17px;
+        }
+    }
+
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            width: 300px;
+            img {
+                width: 100%;
+            }
+        }
     }
 
     .catalog {
         padding-bottom: 30px;
         &__tab {
             width: 150px;
-            font-size: 15px;
+            font-size: 12px;
         }
     }        
 
