@@ -169,6 +169,14 @@
         }
         
     }
+
+    .modal {
+        &__close {
+            right: 5px;
+            top: 5px;
+        }
+    }
+
     .footer {
         height: 400px;
         iframe {
