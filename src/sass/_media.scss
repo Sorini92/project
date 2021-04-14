@@ -118,7 +118,7 @@
     }
 
     .consultation {
-        min-height: 520px;
+        min-height: 600px;
         &__descr {
             text-align: center;
             font-size: 17px;
@@ -171,6 +171,7 @@
     }
 
     .modal {
+        min-height: 500px;
         &__close {
             right: 5px;
             top: 5px;
