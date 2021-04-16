@@ -118,7 +118,22 @@
     }
 
     .consultation {
-        min-height: 600px;
+        min-height: 550px;
+        .feed-form_mt25 {
+            margin-top: 10px;
+        }
+        label.error {
+            margin-bottom: 1px;
+            margin-top: 0;
+        }
+        input {
+            margin: 0 auto;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        input.error {
+            margin-bottom: 5px;
+        }
         &__descr {
             text-align: center;
             font-size: 17px;
@@ -171,7 +186,23 @@
     }
 
     .modal {
-        min-height: 500px;
+        padding: 10px;
+        min-height: 380px;
+        .feed-form_mt25 {
+            margin-top: 10px;
+        }
+        label.error {
+            margin-bottom: 1px;
+            margin-top: 0;
+        }
+        input {
+            margin: 0 auto;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        input.error {
+            margin-bottom: 5px;
+        }
         &__close {
             right: 5px;
             top: 5px;
@@ -206,3 +237,146 @@
     }
 }
 
+@media (max-width: 350px) {
+    .header {
+        &__logo {
+            width: 160px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        .button {
+            width: 130px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        &__icons {
+            width: 300px;
+            margin-top: 25px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+        .button_main {
+            margin-top: 25px;
+        }
+    }
+
+    
+
+    .consultation {
+        padding-top: 20px;
+        min-height: 520px;
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+        }
+        .feed-form_mt25 {
+            margin-top: 10px;
+        }
+        label.error {
+            margin-bottom: 1px;
+            margin-top: 0;
+        }
+        input {
+            margin: 0 auto;
+            width: 250px;
+            margin-bottom: 20px;
+        }
+        input.error {
+            margin-bottom: 5px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 12px;
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__tab {
+            height: 50px;
+            width: 80px;
+            font-size: 8px;
+        }
+    }  
+
+    .modal {
+        padding: 10px;
+        min-height: 370px;
+        width: 300px;
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        .feed-form_mt25 {
+            margin-top: 10px;
+        }
+        label.error {
+            margin-bottom: 1px;
+            margin-top: 0;
+        }
+        input {
+            margin: 0 auto;
+            width: 250px;
+            margin-bottom: 20px;
+        }
+        input.error {
+            margin-bottom: 5px;
+        }
+        &__close {
+            right: 5px;
+            top: 5px;
+        }
+    }
+
+    .button {
+        &_submit {
+            width: 250px;
+            margin: 0 auto;
+        }
+    }
+
+    .footer {
+        height: 400px;
+        iframe {
+            height: 400px;
+        }
+        &__info {
+            padding: 10px;
+            width: 200px;
+            height: 100px;
+        }
+        &__addr {
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+        &__phone {
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+        &__social-item {
+            width: 30px;
+            height: 30px;
+            img {
+                height: 16px;
+            }
+        }
+    }
+
+   
+
+    
+}
