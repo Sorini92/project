@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Sorini92/project/issues"
   },
-  "homepage": "https://github.com/Sorini92/project#readme"
+  "homepage": "https://github.com/Sorini92/project#readme",
+  "dependencies": {
+    "mozjpeg": "^6.0.1"
+  }
 }
